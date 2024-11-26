@@ -1,0 +1,111 @@
+@media (max-width: 768px) {
+  header {
+    position: relative;
+  }
+
+  header nav {
+    display: none;
+    position: absolute;
+    top: 80px;
+    background-color: var(--primary-pink);
+    width: 100%;
+  }
+
+  .menu-icon {
+    display: block;
+    color: var(--secondary-color);
+    font-size: 30px;
+  }
+
+  header nav li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .booking-button {
+    border: none;
+  }
+
+  .introduction {
+    font-size: 25px;
+    padding: 40px 0;
+  }
+
+  .pink-heading {
+    font-size: 35px;
+  }
+
+  .about-us-texts {
+    display: block;
+  }
+
+  .about-us-texts p {
+    text-align: center;
+  }
+
+  .white-heading {
+    font-size: 35px;
+  }
+
+  .services-gallery {
+    display: block;
+    width: 100%;
+  }
+
+  .img-wrapper {
+    width: 100%;
+    height: 400px;
+  }
+
+  .icon-wrapper {
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+
+  .icon-text {
+    padding-bottom: 50px;
+  }
+
+  .price-boxes-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+  }
+
+  .reviews {
+    flex-direction: column;
+  }
+
+  .review-box {
+    width: 90%;
+    height: 400px;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  textarea {
+    width: 80%;
+  }
+
+  .back-to-top {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    bottom: 15px;
+    right: 15px;
+  }
+}
